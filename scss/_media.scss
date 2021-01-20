@@ -1,0 +1,434 @@
+@media(max-width:1174px){
+    .salon{
+        .salon-content{
+            justify-content: center;
+            .salon-content__item + .salon-content__item{
+                margin-top: 75px;
+            }
+        }
+    }
+}
+
+
+@media(max-width:1129px){
+    .spec{
+        .descr{
+
+            .descr__item.descr-left{
+                flex-direction: column-reverse;
+            }
+            .descr__item{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                .descr__info-right{
+                    align-items: center;
+                }
+                .descr__info-left{
+                    align-items: center;
+                }
+                .descr__item-info__title{
+                    margin-bottom: 20px;
+                }
+
+                .descr__item-info__subtitle,
+                .descr__item-info.descr__info-right{
+                    margin-bottom: 30px;
+                }
+                
+                
+                .descr__info-left.descr__item-info{
+                
+                    display: flex;
+                    flex-direction: column;
+                    width: inherit;
+                    padding: 0;
+                  
+                  
+                  .descr__item-info__subtitle{
+                    max-width: 303px;
+                  }
+                }
+            }
+        }
+       
+    }
+    
+}
+
+@media(max-width:760px){
+    .header{
+        .header-slider{
+            .header-slider__item{
+                .container{
+                   
+                    .info{
+                        &__logo{
+            
+                        }
+                        &__title{
+                            margin: 10px 0;
+                            font-size: 83px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    .spec{
+    
+    
+        .driving-test{
+            &__content{
+                margin-bottom: 50px;
+                .item + .item{
+                    margin-left: 30px;
+                }
+                .item{
+                    margin-top:  50px;
+                    
+                    &__title{
+                        
+                    }
+                   
+                    &__info{
+                        font-size: 76px;
+                        line-height: 94px;
+                        font-family: $font-Roboto;
+                        margin-bottom: 7px;
+                        position: relative;
+                        span,sup{
+                            font-size: 24px;
+                            line-height: 28px;
+    
+                        }
+                        sup{
+                            position: absolute;
+                            top: 0;
+                            right: 1.5em;
+                            margin-left: -20px;
+                        }
+                    }
+                    &__subtitle{
+                        color: $color-red;
+                    }
+    
+                }
+                
+            }
+            img{
+                margin-bottom: 100px;
+                max-width: 100%;
+            }
+        }
+ }
+}
+
+@media(max-width:490px){
+    .header{
+        .header-slider{
+            .header-slider__item{
+                .container{
+                    flex-direction: column-reverse;
+                    height: 80%;
+                    justify-content: space-around;
+                    .info{
+                       display: flex;
+                       flex-direction: column;
+                       align-items: center;
+                       text-align: center;
+                        &__logo{
+                            margin: 0;
+                         img{
+                            width: 210px;
+                         }
+                        }
+                        &__title{
+                            margin: 10px 0;
+                            font-size: 62px;
+                            line-height: 92px;
+                        }
+                        .subtext{
+                            font-size: 20px;
+                            max-width: 284px;
+                            margin-bottom: 25px;
+                        }
+                        .btn-box{
+                            width: 243px;
+                            height: 73px;
+                        }
+                    }
+                    .menu-btn{
+                        width: 53px;
+                        height: 53px;
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+    .spec .salon-img {
+        margin-bottom: 50px;
+    }
+    
+}
+
+
+@media(max-width:450px){
+    .header{
+        .menu{
+            .container{
+                padding-top: 0;
+                .menu__list{
+                    ul{
+                        li{
+                            font-size: 38px;
+                            line-height: 45px;
+                            padding-right: 5px;
+                            padding-top: 20px;
+                            
+                        }
+                    }
+                }
+                .menu-btn__exit{
+                    position: absolute;
+                    left: 40px;
+                    top: 30px;
+                }
+                    
+                
+            }
+            
+        }
+    }
+    
+    
+}
+
+
+@media screen and (max-height:615px) and (orientation: portrait) {
+    .header{
+      
+        .header-slider{
+            .header-slider__item{
+                .container{
+                  
+                    height: 85%;
+                    
+                    padding: 0;
+                    .info{
+                      
+                        &__logo{
+                            font-size: 29px;
+                            line-height: 28px;
+                        }
+                        &__title{
+                            font-size: 64px;
+                            line-height: 65px;
+                        }
+                        .subtext{
+                            font-size: 19px;
+                            
+                            margin-bottom: 20px;
+                        }
+                        
+                        .btn-box{
+                            width: 243px;
+                            height: 73px;
+                            .button{
+                                
+                            }
+                        }
+                    }
+                    .menu-btn{
+                        width: 36px;
+                        height: 36px;
+                        .menu-btn__line{
+                           
+                            width: 24px;
+                            &::after{
+                            top: -10px;
+                            width: 24px;
+                            }
+                            &::before{
+                                top: 10px;
+                                width: 24px;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+        .menu{
+            .container{
+
+
+                .menu__list{
+                    ul{
+                        li{
+                            font-size: 29px;
+                            line-height: 28px;
+                            padding-top: 20px;
+                        }
+                    }
+                }
+
+                .menu-btn__exit{
+                    width: 40px;
+                    height: 40px;
+                    transition: 0.4s;
+                    margin-right: 21px;
+                    cursor: pointer;
+                    &:after{
+                        content: "";
+                        width: 55px;
+                      
+                    }
+                    &:before{
+                        content: "";
+                        width: 55px;
+                    }
+                   
+                }
+            }
+
+        }
+        
+    }
+    
+    .spec .salon-img {
+        margin-bottom: 50px;
+    }
+    
+}
+
+@media screen and (max-height:580px) and (orientation: landscape) {
+    .header{
+      
+        .header-slider{
+            .header-slider__item{
+                .container{
+                  
+                    height: 85%;
+                    
+                    .info{
+                      
+                        &__logo{
+                           img{
+                            width: 200px;
+                           }
+                        }
+                        &__title{
+                            font-size: 64px;
+                            line-height: 65px;
+                        }
+                        .subtext{
+                            font-size: 19px;
+                            
+                            margin-bottom: 20px;
+                        }
+                        
+                        .btn-box{
+                            width: 243px;
+                            height: 73px;
+                            .button{
+                                
+                            }
+                        }
+                    }
+                 
+                    
+                }
+            }
+        }
+
+        .menu{
+            .container{
+
+
+                .menu__list{
+                    margin-top: 0;
+                    ul{
+                        li{
+                            padding-top: 20px;
+                        }
+                    }
+                }
+
+              
+            }
+
+        }
+        
+    }
+    
+   
+}
+@media screen and (max-height:460px) and (orientation: landscape) {
+    .header{
+      
+        .header-slider{
+            .header-slider__item{
+                .container{
+                  
+                   
+                    
+                    .info{
+                      
+                        &__logo{
+                           img{
+                            width: 200px;
+                           }
+                        }
+                        &__title{
+                            font-size: 64px;
+                            line-height: 65px;
+                        }
+                        .subtext{
+                            font-size: 19px;
+                            
+                            margin-bottom: 20px;
+                        }
+                        
+                        .btn-box{
+                            width: 243px;
+                            height: 73px;
+                            .button{
+                                
+                            }
+                        }
+                    }
+                 
+                    
+                }
+            }
+        }
+
+        .menu{
+            .container{
+
+
+                .menu__list{
+                    margin-top: 0;
+                    ul{
+                        li{
+                            padding-top: 10px;
+                            font-size: 28;
+                        }
+                    }
+                }
+
+              
+            }
+
+        }
+        
+    }
+    
+}
